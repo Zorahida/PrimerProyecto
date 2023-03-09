@@ -1,0 +1,142 @@
+.logo {
+  padding: 1px;
+  margin: 1px;
+  z-index: 1;
+}
+@media (min-width: 765px) {
+  .logo {
+    padding: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    padding: 50px;
+  }
+}
+
+.nav {
+  width: 100%;
+  margin-bottom: 40px;
+  min-height: 200px;
+}
+.nav_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.nav_item-botton {
+  background-color: aqua;
+  align-items: center;
+  padding: 15px;
+  border-radius: 50%;
+  list-style: none;
+  z-index: 1;
+}
+
+main {
+  display: flexbox;
+  margin: 0;
+  background-color: cadetblue;
+  color: purple;
+  text-align: center;
+}
+
+.seccionSimple {
+  font-style: large;
+  display: flexbox;
+}
+
+button {
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+
+h2 {
+  width: 100%;
+  color: darkmagenta;
+}
+.cajitas {
+  background-color: aquamarine;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+.cajitas_item {
+  margin: 0;
+  padding: 10vh;
+}
+@media (min-width: 765px) {
+  .cajitas_item {
+    width: 60%;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .cajitas_item {
+    width: 35%;
+  }
+}
+.cajitas_item-img {
+  flex-wrap: wrap;
+  justify-content: baseline;
+}
+
+git add README.md .datos {
+  list-style: none;
+}
+
+footer {
+  background-color: darkblue;
+  height: 180px;
+  font-size: x-small;
+  background-size: 100%;
+}
+
+.container_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.container_footer-contact {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.container_footer-logo {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  justify-content: center;
+}
+.container_footer-logo .container_footer-logo-item {
+  height: 15px;
+  width: 15px;
+  margin: 20px;
+}
+@media (min-width: 740px) {
+  .container_footer-logo .container_footer-logo-item {
+    height: 22px;
+    width: 22px;
+    margin: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .container_footer-logo .container_footer-logo-item {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+  }
+}
+
+.span-footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

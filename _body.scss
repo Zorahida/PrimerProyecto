@@ -1,0 +1,47 @@
+main{
+    display: flexbox;
+    margin: 0;
+    background-color:cadetblue;
+    color: purple;
+    text-align: center;
+    
+}
+.seccionSimple{
+    font-style: large;
+    display: flexbox;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 15%;
+}
+h2 {
+    width: 100%;
+    color: darkmagenta;
+    @media(min-width: 765){}
+}
+.cajitas{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 5px;
+    &_item{
+        margin: 0;
+        padding: 10vh;
+        @media (min-width : 765px) {
+            width: 60%;
+            justify-content: space-around;
+        }
+        @media (min-width : 1024px){
+            width: 35%;
+        }
+        &-img{
+    flex-wrap: wrap;
+    justify-content: baseline;
+    }
+}
+}git add README.md
+.datos{
+    list-style: none;
+}
